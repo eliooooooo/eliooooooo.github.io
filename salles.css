@@ -73,6 +73,9 @@ a
 
 
 
+
+
+
 #main
 {
     position: absolute;
@@ -99,6 +102,25 @@ a
     height: 2000px;
     z-index: 7;
 }
+
+
+
+.menu20
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(190, 162, 130);
+    display: none;
+}
+#menu2accueil
+{
+    display: block;
+}
 #menu2
 {
     margin-top: 150px;
@@ -121,12 +143,8 @@ a
 .titre
 {
     text-align: center;
-    margin-top: 15px;
-
+    margin-top: 20px;
 }
-
-
-
 h3
 {
     font-size: 20px;
