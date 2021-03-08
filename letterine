@@ -1,0 +1,15 @@
+.letterine
+{
+    font-size: 30px;
+    text-align: left;
+    line-height : normal;
+    text-align: justify;
+}
+.letterine::first-letter
+{
+    font-family: 'Newsreader', serif;
+    font-size: 350%;
+    padding-right: 2%;
+    float: left;
+    color:black;
+}
