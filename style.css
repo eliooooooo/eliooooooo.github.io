@@ -1,5 +1,13 @@
 
-
+::-webkit-scrollbar 
+{
+    display: none;
+}
+.body
+{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 body, html
 {
     width: 100%;
@@ -66,6 +74,10 @@ a
 {
     transition: 0.2s;
     background-color: rgb(190, 162, 130);
+}
+#accueil
+{
+    transform: scaleY(1.15);
 }
 
 

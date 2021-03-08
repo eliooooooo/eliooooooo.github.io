@@ -1,3 +1,12 @@
+::-webkit-scrollbar 
+{
+    display: none;
+}
+.body
+{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 body, html
 {
     width: 100%;
@@ -29,7 +38,7 @@ a
     align-items: center;
     background-color: white;
     border-radius: 0 0 15px 15px; 
-    position: sticky;
+    position: fixed;
     z-index: 10;    
 }
 .titremenu 
@@ -55,4 +64,48 @@ a
 {
     transition: 0.2s;
     background-color: rgb(190, 162, 130);
+}
+#salle
+{
+    transform: scaleY(1.15);
+}
+
+
+
+
+#main
+{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+#main > div
+{
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+#texte
+{
+    width: auto;
+    min-width: 60%;
+    background-color: white;
+    height: 2000px;
+    z-index: 7;
+}
+#menu2
+{
+    margin-top: 150px;
+    max-width: 250px;
+    min-width: 20%;
+    background-color: rgb(190, 162, 130);
+    z-index: 8;
+    position: sticky;
+    top: 100px;
 }
