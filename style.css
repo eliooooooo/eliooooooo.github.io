@@ -76,13 +76,13 @@ a
 #pyramide
 {
     position: absolute;
-    top : -40px;
+    top : -80px;
     width: 100%;
     height: auto;
     max-width: 1000px;
     min-width: 640px;
     left : 50%;
-    transform: translate(-51%, 0); 
+    transform: translate(-50%, 0); 
 }
 
 
