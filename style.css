@@ -60,9 +60,6 @@ a
 {
     transition: 0.2s; 
     transform: scale(1.15);
-}
-.titremenu:hover a
-{
     color: #ebddd2;
 }
 #logo:hover 
