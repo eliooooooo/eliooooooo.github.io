@@ -102,11 +102,54 @@ a
 #menu2
 {
     margin-top: 150px;
-    max-width: 250px;
+    max-width: 100px;
     min-width: 20%;
+    height: 400px;
     background-color: rgb(190, 162, 130);
-    z-index: 8;
     position: sticky;
     top: 100px;
+    display: table;
+    text-align: center;
 }
 
+#tete
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.titre
+{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+
+h3
+{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+h3:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+  }
+h3:hover:after 
+{ 
+    width: 100%; 
+    left: 0; 
+}
