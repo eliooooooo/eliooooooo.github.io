@@ -21,10 +21,13 @@ body, html
 }
 a
 { 
-    font-size: 120%;
     text-decoration: none;
     color: black;
     font-weight: 900;
+}
+a.titremenu
+{
+    font-size: 120%;
 }
 
 #menu
@@ -99,8 +102,9 @@ a
     width: auto;
     min-width: 60%;
     background-color: white;
-    height: 2000px;
+    height: auto;
     z-index: 7;
+    text-align: justify;
 }
 
 
@@ -154,7 +158,8 @@ h3
     display: inline-block;
     position: relative;
 }
-h3:after {    
+h3:after 
+{    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -165,9 +170,56 @@ h3:after {
     background: black;
     transition: width 0.5s ease 0s, left 0.5s ease 0s;
     width: 0;
-  }
+}
 h3:hover:after 
 { 
     width: 100%; 
     left: 0; 
+}
+
+#titresalle
+{
+    font-weight: bolder;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.titretexte
+{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+    padding-top: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.titretexte::before
+{
+    content: "- ";
+}
+
+.titreinter
+{
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #d1b29b;
+}
+.textesalle
+{
+    font-size: 20px;
+    color: #d1b29b;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.gras
+{
+    font-weight: 2em;
 }
