@@ -9,6 +9,7 @@
 }
 body, html
 {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     background-color: #ebddd2;
@@ -78,7 +79,6 @@ a.titremenu
 
 
 
-
 #main
 {
     position: absolute;
@@ -105,6 +105,7 @@ a.titremenu
     height: auto;
     z-index: 7;
     text-align: justify;
+    margin-bottom: 70px;
 }
 
 
@@ -219,7 +220,29 @@ h3:hover:after
     margin-bottom: 70px;
     text-align: justify;
 }
-.gras
+
+
+
+#bouton
 {
-    font-weight: 2em;
+    display: none;
+    position: fixed;
+    text-align: center;
+    bottom: 30px;
+    left: 13%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#bouton:hover
+{
+    transition: 0.1s;
+    background-color: black;
+    opacity: 0.6;
+}
+#bouton:active
+{
+    background-color: white;
 }

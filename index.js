@@ -18,3 +18,18 @@ for (let i of img){
             document.querySelector("#menu2accueil").style.display = "block";
     })
 };
+
+
+
+mybutton = document.getElementById("bouton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
