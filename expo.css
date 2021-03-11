@@ -82,7 +82,7 @@ a
 {
     position: absolute;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     background-color: white;
     height: 80%;
     width: 80%;
@@ -98,8 +98,12 @@ a
 .expos
 {
     padding: 20px;
-    margin: 5%;
-    width: 33%;
+    text-align: left;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 90%;
     border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
@@ -113,12 +117,56 @@ a
 .expos > a > img
 {
     border-radius: 10px;
-    width: 94%;
-    margin: 3%;
+    height: 90%;
+    margin: 1%;
 }
 .expos > a > img:hover
 {
     transition: 0.5s;
     box-sizing: border-box;
     box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+}
+
+
+div.image
+{
+    width: 280px;
+    height: 150px;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+#image1
+{
+    background: url(images/galerietemps.jpg);
+}
+#image2
+{
+    background: url(images/palais.JPG);
+}
+.titreimage
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.image > div
+{
+    background-color: black;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+div.image > div:hover
+{
+    transition: 0.3s;
+    opacity: 0.7;
 }
