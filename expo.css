@@ -84,8 +84,9 @@ a
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 80%;
+    height: auto;
     width: 80%;
+    padding: 20px;
     border-radius: 10px;
     left : 50%;
     top: 50%;
@@ -102,7 +103,7 @@ a
     flex-wrap: nowrap;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 90%;
     border-radius: 15px;
     box-sizing: border-box;
@@ -143,6 +144,10 @@ div.image
     background: url(images/galerietemps.jpg);
 }
 #image2
+{
+    background: url(images/palais.JPG);
+}
+#image3
 {
     background: url(images/palais.JPG);
 }
