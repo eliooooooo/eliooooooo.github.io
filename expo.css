@@ -105,9 +105,20 @@ a
     box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
     background-color: rgb(190, 162, 130);
 }
-
 .expos:hover
 {
     transition: 0.3s;
     transform: scale(1.1);
+}
+.expos > a > img
+{
+    border-radius: 10px;
+    width: 94%;
+    margin: 3%;
+}
+.expos > a > img:hover
+{
+    transition: 0.5s;
+    box-sizing: border-box;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 }
