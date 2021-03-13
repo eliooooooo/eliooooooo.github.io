@@ -152,10 +152,12 @@ a.titremenu
 }
 h3
 {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
-    text-decoration: none;
     display: inline-block;
     position: relative;
 }
@@ -176,6 +178,18 @@ h3:hover:after
 { 
     width: 100%; 
     left: 0; 
+    
+}
+h3 > a 
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
 }
 
 #titresalle
