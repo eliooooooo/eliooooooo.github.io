@@ -99,6 +99,7 @@ a
 .expos
 {
     padding: 20px;
+    display: flex;
     text-align: left;
     flex-wrap: nowrap;
     margin-left: 5%;
@@ -113,19 +114,13 @@ a
 .expos:hover
 {
     transition: 0.3s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .expos > a > img
 {
     border-radius: 10px;
     height: 90%;
     margin: 1%;
-}
-.expos > a > img:hover
-{
-    transition: 0.5s;
-    box-sizing: border-box;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 }
 
 
@@ -137,6 +132,7 @@ div.image
     border-radius: 5px;
     float: left;
     margin: 20px;
+    margin-right: 5%;
     overflow: hidden;
 }
 #image1
@@ -145,11 +141,11 @@ div.image
 }
 #image2
 {
-    background: url(images/palais.JPG);
+    background: url(images/galerietempsm.jpg);
 }
 #image3
 {
-    background: url(images/palais.JPG);
+    background: url(images/galerietempstm.jpg);
 }
 .titreimage
 {
@@ -174,4 +170,20 @@ div.image > div:hover
 {
     transition: 0.3s;
     opacity: 0.7;
+}
+
+.texteexpo
+{
+    display: flex;
+}
+
+.infoexpo
+{
+    margin: auto 5% auto 5%;
+    text-align: justify;
+}
+.t1
+{
+    text-transform: uppercase;
+    text-decoration: underline;
 }
