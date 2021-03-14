@@ -81,6 +81,7 @@ a
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
+    height: 2000px;
 }
 #main > div
 {
@@ -98,10 +99,11 @@ a
     min-width: 60%;
     background-color: white;
     height: auto;
-    z-index: 7;
     text-align: justify;
     margin-bottom: 70px;
 }
+
+
 .menu20
 {
     position: absolute;
@@ -114,3 +116,87 @@ a
     background-color: rgb(190, 162, 130);
     display: none;
 }
+#menu2accueil
+{
+    display: block;
+}
+#menu2
+{
+    margin-top: 150px;
+    max-width: 100px;
+    min-width: 20%;
+    height: 400px;
+    background-color: rgb(190, 162, 130);
+    position: sticky;
+    top: 100px;
+    display: table;
+    text-align: center;
+}
+#tete
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.titre
+{
+    text-align: center;
+    margin-top: 20px;
+}
+h3
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+h3:after 
+{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+h3:hover:after 
+{ 
+    width: 100%; 
+    left: 0; 
+}
+h3 > a 
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+h3 > a:hover
+{
+    transition: 0.5s;
+    color: #ebddd2;
+}
+
+#titreinfo
+{
+    font-weight: bolder;
+    width: 100%;
+    height: min-content;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
