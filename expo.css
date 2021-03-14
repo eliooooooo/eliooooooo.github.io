@@ -4,8 +4,9 @@
 }
 .body
 {
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;  /* IE et Edge */
     scrollbar-width: none;  /* Firefox */
+    overflow-x: hidden; 
 }
 body, html
 {
