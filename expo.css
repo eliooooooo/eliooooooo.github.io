@@ -90,8 +90,8 @@ a
     padding: 20px;
     border-radius: 10px;
     left : 50%;
-    top: calc(50% + 40px);
-    transform: translate(-50%, -50%);
+    top: 130px;
+    transform: translate(-50%, 0);
     box-sizing: border-box;
     box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 
